@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/denim.png");
+}
+
+header {
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    background-color: rgb(16,41,73);
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+h2{
+    color: white;
+}
+h1 .logo_name {
+    padding: 25px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.main-content, .services, .portfolio, .contact-info {
+    padding: 20px;
+    color: white;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.logo_name{
+    color: white;
+    text-decoration: none;
+}
+.container_portfolio {
+    position: relative;
+    max-width: 300px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container_portfolio:hover .overlay {
+    opacity: 1;
+}
+.d-block{
+    height: 375px;
+}
+.section_slide{
+    display: flex;
+    column-gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.text_header{
+    text-align: center;
+}
+.carousel-inner.video_codec{
+    padding-top: 10px;
+}
+.img_logo{
+    width: 100%;
+}
+
+.carousel-item{
+    padding: 10px;
+}
