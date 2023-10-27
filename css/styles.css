@@ -5,23 +5,22 @@ body {
     background-image: url("../img/denim.png");
 }
 
-header {
+.nav_menu {
     color: #fff;
     padding: 10px 0;
-    text-align: center;
+    /*text-align: center;*/
     background-color: rgb(16,41,73);
 }
 
-header h1 {
-    margin: 0;
-}
 
-nav ul {
+.nav_navigate ul {
     list-style: none;
     padding: 0;
+    width: 300px;
 }
 
-nav li {
+.nav_navigate li {
+
     display: inline;
     margin: 0 15px;
 }
@@ -31,7 +30,7 @@ h2{
 h1 .logo_name {
     padding: 25px;
 }
-nav a {
+.nav_navigate a {
     text-decoration: none;
     color: #fff;
 
