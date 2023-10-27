@@ -35,6 +35,9 @@ h2{
 }
 .text_title  {
     padding: 10px;
+    border-radius: 10px;
+    background-color: dimgrey;
+    max-width: 470px;
 }
 
 h1 .logo_name {
@@ -142,6 +145,7 @@ h1 .logo_name {
 #navbar {
     overflow: hidden;
     background-color: #333;
+    z-index: 1;
 }
 
 #navbar a {
@@ -154,15 +158,15 @@ h1 .logo_name {
     font-size: 17px;
 
 }
-#navbar a:hover {
+#navbar a:active {
     background-color: #ddd;
     color: black;
 }
 
-#navbar a.active {
-    background-color: #4CAF50;
-    color: white;
-}
+/*#navbar a:active {*/
+/*    background-color: #4CAF50;*/
+/*    color: white;*/
+/*}*/
 
 .content {
     padding: 16px;
