@@ -130,7 +130,15 @@ h1 .logo_name {
     color: white;
     text-decoration: none;
 }
+.instagram{
+    color: white;
+    text-decoration: none;
+}
+
 .telegram:hover {
+    color: black;
+}
+.instagram:hover {
     color: black;
 }
 .viber:hover {
